@@ -31,16 +31,54 @@ Hemos obtenido estos números de un terminal Imperial. ¡Conviértelos a binario
 2. 🤖 Comunicación con los Droides 🤖
 Nuestros droides astromecánicos utilizan binario para comunicarse. Traduce estos códigos a decimal y hexadecimal.
 
-Binario	Decimal	Hexadecimal
-10101011		
-11000100		
-...		
+| Binario   | Decimal | Hexadecimal |
+|-----------|---------|-------------|
+| 10101011  |         |             |
+| 11000100  |         |             |
+| 10011     |         |             |
+| 11110000  |         |             |
+| 1010010   |         |             |
+| 11011010  |         |             |
+| 10011001  |         |             |
+| 1110111   |         |             |
+| 100010    |         |             |
+| 1100011   |         |             |
+| 1111      |         |             |
+| 100101101 |         |             |
+| 1010110   |         |             |
+| 110101    |         |             |
+| 1000000   |         |             |
+| 11111111  |         |             |
+| 101001    |         |             |
+| 1001110   |         |             |
+| 1100001   |         |             |
+| 1110001   |         |             |
+
 3. 🖤 Códigos Secretos del Lado Oscuro 🖤
 Hemos interceptado mensajes del lado oscuro en formato hexadecimal. Decodifica el mensaje convirtiéndolos a decimal y binario.
 
-Hexadecimal	Decimal	Binario
-5A		
-B3		
-...		
+| Hexadecimal | Decimal | Binario |
+|-------------|---------|---------|
+| 5A          |         |         |
+| B3          |         |         |
+| 1F          |         |         |
+| C7          |         |         |
+| 9D          |         |         |
+| 44          |         |         |
+| E2          |         |         |
+| 7B          |         |         |
+| 2E          |         |         |
+| AA          |         |         |
+| 38          |         |         |
+| D4          |         |         |
+| 60          |         |         |
+| F1          |         |         |
+| 3C          |         |         |
+| 89          |         |         |
+| BB          |         |         |
+| 15          |         |         |
+| 99          |         |         |
+| C3          |         |         |
+
 ¡Buena suerte, Padawan! La galaxia cuenta contigo para descifrar estos códigos y ayudar a la Rebelión. Que la Fuerza te acompañe. 🌠
 
