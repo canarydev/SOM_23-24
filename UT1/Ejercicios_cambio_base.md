@@ -1,7 +1,7 @@
-🌌 Misión Star Wars: Rescate de Datos de la Estrella de la Muerte 🌌
-¡Joven Padawan! Nuestros espías en la Estrella de la Muerte han interceptado información crucial para la Rebelión, pero los datos están cifrados. Necesitamos tu habilidad con números para descifrarlos.
+# 🌌 Misión Star Wars: Rescate de Datos de la Estrella de la Muerte 🌌
+**¡Joven Padawan!**  Nuestros espías en la Estrella de la Muerte han interceptado información crucial para la Rebelión, pero los datos están cifrados. Necesitamos tu habilidad con números para descifrarlos.
 
-1. 🌐 Decodificación del Sistema Imperial 🌐
+## 1. 🌐 Decodificación del Sistema Imperial 🌐
 Hemos obtenido estos números de un terminal Imperial. ¡Conviértelos a binario y a hexadecimal!
 
 | Decimal | Binario | Hexadecimal |
@@ -28,7 +28,7 @@ Hemos obtenido estos números de un terminal Imperial. ¡Conviértelos a binario
 | 33      |         |             |
 
 
-2. 🤖 Comunicación con los Droides 🤖
+## 2. 🤖 Comunicación con los Droides 🤖
 Nuestros droides astromecánicos utilizan binario para comunicarse. Traduce estos códigos a decimal y hexadecimal.
 
 | Binario   | Decimal | Hexadecimal |
@@ -54,7 +54,7 @@ Nuestros droides astromecánicos utilizan binario para comunicarse. Traduce esto
 | 1100001   |         |             |
 | 1110001   |         |             |
 
-3. 🖤 Códigos Secretos del Lado Oscuro 🖤
+##3. 🖤 Códigos Secretos del Lado Oscuro 🖤
 Hemos interceptado mensajes del lado oscuro en formato hexadecimal. Decodifica el mensaje convirtiéndolos a decimal y binario.
 
 | Hexadecimal | Decimal | Binario |
