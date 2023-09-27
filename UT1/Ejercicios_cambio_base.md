@@ -54,7 +54,7 @@ Nuestros droides astromecánicos utilizan binario para comunicarse. Traduce esto
 | 1100001   |         |             |
 | 1110001   |         |             |
 
-##3. 🖤 Códigos Secretos del Lado Oscuro 🖤
+## 3. 🖤 Códigos Secretos del Lado Oscuro 🖤
 Hemos interceptado mensajes del lado oscuro en formato hexadecimal. Decodifica el mensaje convirtiéndolos a decimal y binario.
 
 | Hexadecimal | Decimal | Binario |
