@@ -1,0 +1,83 @@
+# 🌌 Misión 2 Star Wars: Desencriptando los Planos Imperiales 🌌
+
+Joven Padawan, para entrar a la base imperial secreta y robar los planos de la próxima superarma del Imperio, debes superar un sistema de seguridad basado en lógica digital. Estudia las siguientes puertas lógicas y completa las tablas de verdad correspondientes.
+
+##  Primera puerta:
+Símbolo: 
+![NAND](https://cibertest.com/public/img/examen/393-compuertas-logicas-1.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+|1|0
+|1|1
+
+## Segunda puerta:
+Símbolo: 
+![NOR](https://cibertest.com/public/img/examen/399-compuertas-logicas-7.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+|1|0
+|1|1
+
+## Tercera puerta:
+Símbolo: 
+![NOT](https://cibertest.com/public/img/examen/395-compuertas-logicas-3.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+
+
+## Cuarta puerta:
+Símbolo: 
+![OR](https://cibertest.com/public/img/examen/396-compuertas-logicas-4.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+|1|0
+|1|1
+
+
+## Quinta puerta:
+Símbolo: 
+![AND](https://cibertest.com/public/img/examen/397-compuertas-logicas-5.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+|1|0
+|1|1
+
+
+## Sexta puerta:
+Símbolo: 
+![XOR](https://cibertest.com/public/img/examen/394-compuertas-logicas-2.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+|1|0
+|1|1
+
+## Séptima puerta:
+Símbolo: 
+![XNOR](https://cibertest.com/public/img/examen/398-compuertas-logicas-6.jpg)
+Nombre: _____
+|A | B | Salida |
+|--|--|--|
+|0|0
+|0|1
+|1|0
+|1|1
+
+¡Buena suerte, Padawan! Que la Fuerza te acompañe en esta misión crítica. Una vez que completes las tablas, podrás ingresar a la base y obtener los planos imperiales. ¡La Rebelión cuenta contigo!
