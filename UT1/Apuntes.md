@@ -42,8 +42,36 @@ El hardware se refiere a los componentes físicos que conforman un sistema infor
     * **Mixtos**: 🖲️ Dispositivos que pueden funcionar tanto de entrada como de salida, como una pantalla táctil.
 - **Memorias auxiliares**: 💾 Dispositivos de almacenamiento externo como CD's. 💿, tarjetas SD o unidades USB.
 
+### 1.3.2 🔧 Elementos funcionales
 
+La máquina de Von Neumann, o arquitectura de Von Neumann, es un modelo conceptual que sirve de base para el diseño de la mayoría de las computadoras modernas. Hay diferentes formas de representarla, como te muestro a continuación:
 
+```mermaid
+graph LR
+A{CPU} <--> B(MP)
+A <--> C(E/S)
+```
 
-
-
+```mermaid
+classDiagram
+CPU  <-->  Memoria Principal
+CPU: UC 
+CPU: ALU
+CPU: Registros
+CPU: Caché L1
+CPU: Caché L2
+CPU: (Caché L3)
+CPU <--> Entrada Salida
+```
+```mermaid
+journey
+section CPU
+UC : 10.2
+ALU: 10.2
+Registros: 10.2
+section Memoria
+Principal: 10.2 
+section Entrada/Salida
+Periféricos : 10.2
+Memoria Auxiliar : 10.2
+```
