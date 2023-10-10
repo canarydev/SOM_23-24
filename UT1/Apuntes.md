@@ -44,6 +44,34 @@ El hardware se refiere a los componentes físicos que conforman un sistema infor
 
 ### 1.3.2 🔧 Elementos funcionales
 
+**Unidad Central de Proceso (UCP , en inglés CPU):** 
+Realiza las operaciones de cálculo y toma decisiones según las instrucciones de un programa.
+
+- **Unidad Aritmético Lógica (UAL, en inglés ALU):** 
+Ejecuta operaciones matemáticas y lógicas.
+
+- **Unidad de Control (UC, CU en inglés):** 
+Dirige y coordina las actividades de los componentes del sistema.
+
+**Memoria Principal:** 
+Almacena datos e instrucciones para que la CPU pueda acceder rápidamente.
+
+**Buses:** 
+Conjunto de líneas de comunicación que transportan datos entre componentes.
+
+- **Datos:** 
+Líneas que transportan información o valores de un lugar a otro.
+
+- **Direcciones:** 
+Líneas que especifican la fuente o destino de los datos.
+
+- **Control:** 
+Líneas que controlan el flujo y la operación de datos y direcciones.
+
+**Unidad de Entrada Salida (E/S):** 
+Permite a la computadora interactuar con el entorno, recibiendo y enviando datos. También forma parte de esta unidad la memoria secundaria.
+
+
 La máquina de Von Neumann, o arquitectura de Von Neumann, es un modelo conceptual que sirve de base para el diseño de la mayoría de las computadoras modernas. Hay diferentes formas de representarla, como te muestro a continuación:
 
 ```mermaid
