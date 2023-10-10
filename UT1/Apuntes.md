@@ -44,35 +44,37 @@ El hardware se refiere a los componentes físicos que conforman un sistema infor
 
 ### 1.3.2 🔧 Elementos funcionales
 
-**Unidad Central de Proceso (UCP , en inglés CPU):** 
+💻 **Unidad Central de Proceso (UCP , en inglés CPU):** 
 Realiza las operaciones de cálculo y toma decisiones según las instrucciones de un programa.
 
-- **Unidad Aritmético Lógica (UAL, en inglés ALU):** 
+- 🔢 **Unidad Aritmético Lógica (UAL, en inglés ALU):** 
 Ejecuta operaciones matemáticas y lógicas.
 
-- **Unidad de Control (UC, CU en inglés):** 
+- 🎛 **Unidad de Control (UC, CU en inglés):** 
 Dirige y coordina las actividades de los componentes del sistema.
 
-**Memoria Principal:** 
+🧠 **Memoria Principal:** 
 Almacena datos e instrucciones para que la CPU pueda acceder rápidamente.
 
-**Buses:** 
+🔌 **Buses:** 
 Conjunto de líneas de comunicación que transportan datos entre componentes.
 
-- **Datos:** 
+- 📊 **Datos:** 
 Líneas que transportan información o valores de un lugar a otro.
 
-- **Direcciones:** 
+- 🔀 **Direcciones:** 
 Líneas que especifican la fuente o destino de los datos.
 
-- **Control:** 
+- 🎚 **Control:** 
 Líneas que controlan el flujo y la operación de datos y direcciones.
 
-**Unidad de Entrada Salida (E/S):** 
+🖥 **Unidad de Entrada Salida (E/S):** 
 Permite a la computadora interactuar con el entorno, recibiendo y enviando datos. También forma parte de esta unidad la memoria secundaria.
 
+---
 
-La máquina de Von Neumann, o arquitectura de Von Neumann, es un modelo conceptual que sirve de base para el diseño de la mayoría de las computadoras modernas. Hay diferentes formas de representarla, como te muestro a continuación:
+📘 La **máquina de Von Neumann**, o arquitectura de Von Neumann, es un modelo conceptual que sirve de base para el diseño de la mayoría de las computadoras modernas. Hay diferentes formas de representarla, como te muestro a continuación:
+
 
 ```mermaid
 graph LR
@@ -117,3 +119,58 @@ section Entrada/Salida
 Periféricos : 10.2
 Memoria Auxiliar : 10.2
 ```
+
+---
+
+Dentro de la **UC** encontramos los siguientes elementos:
+
+🔍 **Registro de Instrucción (RI, en inglés IR):** 
+Almacena la instrucción que actualmente se está ejecutando.
+
+🔢 **Registro Contador de Programa (CP, en inglés PC):** 
+Apunta a la siguiente instrucción a ejecutar en memoria.
+
+⏳ **Secuenciador:** 
+Controla el orden en que se ejecutan las instrucciones y coordina las operaciones de la CPU.
+
+⏰ **Reloj:** 
+Genera pulsos a intervalos regulares que determinan la velocidad a la que se ejecutan las instrucciones.
+
+| Medida | Definición |
+|--------|------------|
+| Herzio (Hz) | Un ciclo por segundo. |
+| Kiloherz (kHz) | Mil ciclos por segundo. |
+| Megaherz (MHz) | Un millón de ciclos por segundo. |
+| Gigaherz (GHz) | Mil millones de ciclos por segundo. |
+
+---
+
+🔢 **Unidad Aritmético Lógica (UAL, en inglés ALU):**
+
+📋 **Registros de datos:** 
+Almacenan temporalmente datos que la ALU necesita para realizar operaciones.
+
+💾 **Registro Acumulador:** 
+Guarda el resultado de las operaciones realizadas por la ALU.
+
+🔌 **Circuito Operacional:** 
+Realiza la operación aritmética o lógica específica en los datos.
+
+---
+
+🧠 **Memoria Principal:**
+
+🔋 **RAM (Random Access Memory):** 
+Memoria volátil donde se almacenan temporalmente datos e instrucciones mientras el sistema está encendido.
+
+- 📌 **Registro de direcciones:** 
+Guarda la dirección de memoria de la próxima instrucción o dato a leer o escribir.
+
+- 💼 **Registro de intercambio:** 
+Se utiliza para transferencias temporales y almacenamiento durante operaciones de procesamiento.
+
+- 🔀 **Selector de memoria:** 
+Determina qué ubicación de memoria será leída o escrita.
+
+📀 **ROM (Read Only Memory):** 
+Memoria no volátil que contiene datos e instrucciones que no pueden ser modificados (o sólo con dificultad) y que se mantienen incluso cuando el sistema está apagado.
