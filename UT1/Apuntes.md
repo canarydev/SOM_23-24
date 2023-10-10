@@ -50,19 +50,33 @@ La máquina de Von Neumann, o arquitectura de Von Neumann, es un modelo conceptu
 graph LR
 A{CPU} <--> B(MP)
 A <--> C(E/S)
+B(MP) <--> C(E/S)
 ```
 
 ```mermaid
 classDiagram
-CPU  <-->  Memoria Principal
-CPU: UC 
-CPU: ALU
-CPU: Registros
-CPU: Caché L1
-CPU: Caché L2
-CPU: (Caché L3)
-CPU <--> Entrada Salida
+    class CPU{
+        UC
+        ALU
+        Registros
+        Caché L1
+        Caché L2
+        Caché L3()
+    }
+    class EntradaSalida{
+        Periféricos
+        Memoria Secundaria()
+    }
+   note for Buses  "Memoria Principal"
+   EntradaSalida <--> Buses
+   CPU <--> Buses
+   class Buses{
+      Direcciones
+      Datos
+      Control()
+   }
 ```
+
 ```mermaid
 journey
 section CPU
